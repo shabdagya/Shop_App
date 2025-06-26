@@ -1,0 +1,5 @@
+rootProject.name = 'shop_app_flutter'
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+apply from: "$flutterRoot/packages/flutter_tools/gradle/app_plugin_loader.gradle"
+include ':app'
